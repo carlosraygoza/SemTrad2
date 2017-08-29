@@ -18,8 +18,8 @@ int main(){
     
     
     Lexico lexico;
-    lexico.setCadena("12.3a");
-//    lexico.leer("12.3a");
+//    lexico.setCadena("+12.3a");
+    lexico.leer("+-*/<>;,(){}=");
     
 //    cout << "Resultado del Analisis Lexico" << endl << endl;
 //    cout << "Simbolo\t\tTipo" << endl;
